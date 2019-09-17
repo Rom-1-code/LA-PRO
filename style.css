@@ -1,0 +1,20 @@
+.divhead{ 
+    background-color: rgb(70, 172, 255);
+    height: 100px;
+    text-align:center;
+}
+
+.divbody {
+    background-color: rgb(189, 189, 189); 
+    height: 100%;
+}
+.footer{
+    background-color: rgb(255, 0, 0); 
+    height: 10%;
+}
+.MENUHAUT{
+    float: left;
+    background-color: brown;
+    height: 120px;
+    width: 320px; 
+}
