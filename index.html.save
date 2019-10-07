@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Serveur de Roro, Doudou</title>
+    <style type="text/css" media="screen">
+    #font{
+        background-color: rgb(58, 58, 55);
+    }
+    #pages{
+        width: 827px;
+        height: 1170px;
+        margin: auto;
+        border: rgb(231, 231, 9) 1px;
+        border-style: solid;        
+    }
+    #haut{
+        float: left;
+        background-color: rgb(204, 15, 87);
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+    #Boutonedouard{
+
+        width: 50%;
+        height: 10%;
+        float: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: brown;
+        text-align: center;
+    }
+    #Boutonroro{
+
+        width: 50%;
+        height: 10%;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: darkgrey;
+        text-align: center;
+    }
+    #base{
+
+        width: 100%;
+        height: 95%;
+        background-color:white;
+
+    }
+    #basdepage{
+        width: 100%;
+        height: 5%;
+        background-color: blanchedalmond;
+        background-position: bottom;
+        text-align: center;
+    }
+    .bouton1 {
+	width:85px;
+	height:85px;
+	background:#fafafa;
+	box-shadow:2px 2px 8px #aaa;
+	font:bold 13px Arial;
+	border-radius:50%;
+	color:#555;
+    }
+    </style>
+    
+</head>
+<body>
+    <div id="font">
+        <div id="pages">
+
+            <div id="haut">
+
+		<br> <h1>Serveur de roro  et doudou</h1>
+
+            </div>
+            <div id="Boutonedouard">                <br><a href="http://192.168.65.204/ProjetBTS/Flaquet/Web/Index.html">
+                    <button class="bouton1">
+                        Exercice Edouard
+                    </button>
+                </a>
+            </div>
+            <div id="Boutonroro">
+                <br><a href="http://192.168.65.204/ProjetBTS/Flemal/Web/PHP/index.php">
+                    <button class="bouton1">
+                        Exercice Romain
+                    </button>
+                </a>
+            </div>
+            <div id="base">
+               
+            </div>
+            <div id="basdepage">
+                <br> &copy; Edouard et Romain,  BTS SN La Providence - Amiens
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+

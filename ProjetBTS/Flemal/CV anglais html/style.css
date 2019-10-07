@@ -1,0 +1,30 @@
+#header, #content, #menu, #footer {
+padding:1px 0;
+margin: 5px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div#header{
+background-color: rgb(35, 137, 221);
+height: 100px;
+text-align: center;
+}
+div#content{
+height:600px; 
+text-align: left; 
+}
+div#menu{
+float: left;
+background-color: grey;
+height: 1000px; 
+width: 250px;  
+}
+div#footer{
+background-color: black;
+clear:both; 
+height: 100px;     
+}
+div#formation{
+background-color: rgb(35, 137, 221);
+height: 50px;
+text-align: center;
+}
