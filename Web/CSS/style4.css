@@ -1,0 +1,39 @@
+#bandeau {
+	height:100px;
+	background-color:#00CCFF;
+	}
+#contenu {
+	
+	height:640px;
+	background-color:#FFCC00;
+	}
+#piedpage {
+	
+	height:100px;
+	background-color:#33FF99;
+	}
+
+#menu {
+	float:left;
+    width: 150px;
+    height: 640px;
+}	
+
+#menuhaut{
+    float:left;
+    width: 150px;
+    height: 320px;
+    background-color: brown;
+}
+#menubas{
+    float:left;
+    width: 150px;
+    height: 320px;
+    background-color: rgb(42, 54, 165);
+}
+#block{
+	float: right;
+	width: 300px;
+	height: 320px;
+	background-color: rgb(42, 54, 165);
+}
